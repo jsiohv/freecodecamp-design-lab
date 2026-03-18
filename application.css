@@ -1,0 +1,85 @@
+
+input:focus,
+textarea:focus
+{
+  border-color:blue;
+  outline:none;
+}
+
+input:invalid,
+select:invalid,
+textarea:invalid{
+border-color:red;
+}
+input:valid,
+select:valid,
+textarea:valid{
+  border-color:green;
+}
+button:hover{
+  background-color:darkblue;
+}
+.radio-group input[type="radio"]:checked{
+  border-color:orange;
+  background-color:purple;
+  box-shadow: 10px 5px 5px black;
+}
+input[type="radio"]:checked +label{
+  color:pink;
+vertical-align:middle;
+margin-right:5px;
+}
+input:first-of-type{
+  color:gray;
+}
+p{
+  margin:0;
+  
+}
+ .container
+ {background-color: #ffffff1a;
+ width:80%;
+ max-width:600px;
+ border-radius:10px;
+ margin:20px auto;
+ padding:10px 20px;
+ box-shadow:0 5px 15px black;
+ }
+ input{
+   width:100%;
+    box-sizing:border-box;
+    border-color:1px solid red;
+ }
+ select{
+   width:100%; 
+     box-sizing:border-box;
+ }
+ 
+ label{
+vertical-align:middle;
+ }
+ fieldset input{
+   width:unset;
+   vertical-align:middle;
+   margin:0 0.5rem 0 0;
+ }
+ .inline{
+   display:inline;
+ }
+ textarea{
+   width:100%;
+   display:block;
+   min-height:100px;
+   box-sizing:border-box;
+ }
+ button{
+   width:100%;
+   display:block;
+   box-sizing:border-box;
+ }
+ h2{
+   text-align:center;
+ }
+
+ 
+ 

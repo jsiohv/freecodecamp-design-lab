@@ -1,0 +1,57 @@
+body /*style for body element*/
+{
+ height:100vh;/* take up full height of browser viewport*/
+ background-color:#f0f0f0;/*light gray for background*/
+ text-align:center;/*center all inline content within center of page*/
+}
+
+.settings-card{
+ max-width: 250px;/*set overall size of container*/
+ padding:20px; /*space betwwen content and border*/
+ border-radius:10px;/*round edges of container*/
+ box-shadow:0 2px 6px rgba(0,0,0,0.2);/*gives container a lifted look*/
+ margin:auto;/*automatically adjusts margin of element*/
+ text-align:left;/*align inline content to left side of the  containing element*/
+}
+
+h1/*style heading*/
+{
+ text-align:center;/*aaligns heading into center of page*/
+}
+label
+{ display:block; /*each label and checkbox on new line*/
+ margin:8px auto;/* add verical spacing between elements*/
+ cursor:pointer; /*changes cursor to hand when hover over label*/
+
+}
+/*styling the checkbox*/
+input[type="checkbox"]
+{
+ height:20px;/*increase height of checkbox*/
+ width:20px;/*increase width of checkbox*/
+ cursor:pointer;/*cursor changes to pinter when hover over checkbox*/
+ appearance:none;/* removes default checkbox and border*/
+ border:2px solid #f1be32;/*replaces default border*/
+ border-radius:4px;/*round edges of checkbox*/
+ background-color: white;/*color center of checkbox*/
+ transition:all 0.3s;/* gradual transition when user clicks checkbox*/
+ vertical-align: middle;/*vertically aligns text and checkboxes*/
+ margin:15px;/*space betwwen checkboxes*/
+}
+
+/*style checkbox after being selected*/
+input[type="checkbox"]:checked{
+ background-color:#f1be32; /*background-color of checkbox*/
+ border-color:#e2a60d;/*border-color of checkbox*/
+}
+
+/*add visual indicater when checkbox is checked*/
+input[type="checkbox"]:checked::after{
+ content:"✓";
+ display:block;/*element takes up full width of container start on new line*/
+ text-align:center;/*center inline content*/
+ font-weight:bold;/*increase visabillity of checkmark*/
+ color:white;/*color of checkmark*/
+ line-height:20px;/**/
+ 
+}

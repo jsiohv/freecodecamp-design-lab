@@ -1,0 +1,34 @@
+
+ input[type="checkbox"]{
+appearance:none;/*removes default border*/ 
+border:2px, solid green; /*custom border*/
+height:20px;/*height of checkbox*/
+width:20px;/*width of textbox*/
+cursor:pointer;/* changes arrow pointer to finger*/
+border-radius:4px; /*smoothes corners*/
+background-color:white; /*color of checkbox*/
+vertical-align:middle;/*centers checkboxes in a vertical line*/
+margin:15px;/*space around each checkbox*/
+}
+
+label{
+  display:block;/*each label on a new line*/
+  margin:8px auto;/* sets margin at 8pixels , automatically set bybrowser*/
+  cursor:pointer;/* changes  cursoer to a pointer*/
+}
+
+input[type="checkbox"]:checked{
+background-color:#f1be32; /*background-color of checkbox*/
+ border-color:#e2a60d;/*border-color of checkbox*/
+}
+
+
+input[type="checkbox"]:checked::after{
+ content:"✓";
+ display:block;/*element takes up full width of container start on new line*/
+ text-align:center;/*center inline content*/
+ font-weight:bold;/*increase visabillity of checkmark*/
+ color:white;/*color of checkmark*/
+ line-height:20px;/*defines height of each checkbox*/
+ 
+}

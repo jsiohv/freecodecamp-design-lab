@@ -1,0 +1,45 @@
+body{
+ background-color: #f4f4f4;
+}
+
+h2{
+ text-align:center;
+}
+.color-grid{
+ text-align:center;
+ padding:0 20px;
+}
+.color-grid::after{
+ content:"";
+ display:inline-block;
+ width:100%;
+}
+
+.color-box{
+ width:130px;
+ height:100px;
+ display:inline-block;
+ margin:20px;
+ font-size:100px;
+ border-radius:15px;
+}
+
+.color1{
+ background-color:#33553E;
+}
+
+.color2{
+ background-color: rgb(230,145,45);
+}
+
+.color3{
+ background-color:red;
+}
+
+.color4{
+background-color:hsla(235, 45%, 38%)
+}
+
+.color5{
+ background-color: pink;
+}

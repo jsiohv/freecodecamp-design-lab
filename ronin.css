@@ -1,0 +1,19 @@
+body {
+  background-color: #1a1a1a; /* Dark Grey like a Dojo floor */
+  color: #e0e0e0; /* off-white text for readability */
+  font-family: sans-serif;
+  text-align: center;
+}
+.player-card {
+  background-color: #333;
+  padding: 20px;
+  margin-top: 50px;
+  border-radius: 10px; /* smooth corners*/
+  display: inline-block;
+  border: 1px solid #555;
+}
+.player-card:hover {
+  transform: scale(1.05); /*Slightly grows the card */
+  box-shadow: 0px 0px 15px #00ffcc; /* adds a neo teal glow */
+  transition: all 0.3s ease; /* makes the movement smiith, not jerky */
+}

@@ -1,0 +1,38 @@
+/*file:style.contactform.css*/
+.form-container{
+ background-color: #f9f9f9;/*light gray background color for the form*/
+ border-radius:10px; /*rounded corners for the from container*/
+ padding:20px;/*space inside the container*/
+ width: 80%; /*width of the from container*/
+ margin:10 auto;/*centering the from conainter horizontally*/
+}
+
+/* styles for the labels*/
+label{
+ margin-bottom:10px; /*space elow each label*/
+ color:#111111;/* black font color for the labels*/
+ display:block; /* ensures each label appears on a new line */
+}
+
+/* styles for input fields and text areas*/ 
+input, textarea{
+ width:100%;/*full width of the form container*/
+ padding:10px; /*space inside the inout fields*/
+ margin-bottom:15px; /* space below eah input field*/
+ box-sizing: border-box;/*Ensures padding andborder are included*/
+}
+
+/*Styles for tthe submit button*/
+button{
+ background-color: #007bff;/*blue background-color for the button*/
+ font-size:16px; /*Font size of the button text*/
+ padding: 10px 20px; /*space inside the button*/
+ border:none; /*removes the default border*/
+ border-radius: 5px;/*rounded corners for the button**/
+ cursor:pointer/*pointer cursor on hover */
+}
+/** Hover effect for the button**/
+button:hover{
+ background-color: #0056b3;/*Darker blue color when the button is hovered*/
+}
+
